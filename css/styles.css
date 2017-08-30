@@ -1,0 +1,177 @@
+html .formcraft-css .fc-form .form-element .form-element-html {
+    padding: 0 1.5em 0.5em 0 !important;
+}
+
+html .formcraft-css .fc-form .form-page-content .form-element-type-customText:first-child .customText-cover, html .formcraft-css .fc-form .form-page-content .form-element-type-heading:first-child .heading-cover {
+    padding-bottom: 9px !important;
+}
+
+html .formcraft-css .fc-form .form-page-content {
+    padding: 1.5em 0 1.0em 1.5em !important;
+}
+
+#dt-btn-1, #dt-btn-2 {
+ color: white;
+    border-color: white;
+    margin-left: 16px;
+}
+
+html .formcraft-css {
+    position: relative;
+    width: auto;
+    font-size: 14px;
+    float: left;
+}
+
+html .formcraft-css .fc-form {
+    border-radius: 12px !important;
+}
+
+.stripe-style-5 .wpb_content_element .wpb_accordion_header > a span {
+    color: black;
+    font-size: 14pt;
+}
+
+.wpb_content_element .wpb_accordion_wrapper .wpb_accordion_content .wpb_row:last-child>div>div.wpb_wrapper .wpb_content_element:last-child, .wpb_content_element .wpb_accordion_wrapper .wpb_accordion_content>.wpb_content_element:last-child, .wpb_content_element .wpb_tour_tabs_wrapper .wpb_tab .wpb_row:last-child>div>div.wpb_wrapper .wpb_content_element:last-child, .wpb_content_element .wpb_tour_tabs_wrapper .wpb_tab>.wpb_content_element:last-child {
+    margin-bottom: 0;
+    line-height: 21px;
+    color: black;
+}
+
+.stripe-style-5 .wpb_content_element .wpb_accordion_header > a:hover span {
+    color: white !important;
+}
+
+
+.accent-gradient #page .wpb_accordion .wpb_accordion_wrapper > a:hover span,
+.accent-gradient #page .wpb_content_element .wpb_accordion_header a:hover span {
+  background: none;
+  background: none;
+  color:white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-nav > li > a .menu-text {
+    font: normal normal 16px / 20px "Roboto", Helvetica, Arial, Verdana, sans-serif;
+    color: black;
+    text-transform: none;
+}
+
+.main-nav > li > a .menu-text:hover {
+  color:gray;
+}
+
+.shortcode-banner, .shortcode-banner-inside {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.pricehover p {
+    color:#c1c1c1;
+}
+
+.pricehover p:hover {
+    color:white;
+    
+}
+
+.price h2 {
+    color:white;
+}
+
+
+.price h4 {
+    color:white;
+}
+
+.wpb_singleimage_heading {
+ font-size:12pt; 
+ line-height: 17pt;
+}
+
+.wpb_single_image {
+    margin-bottom: 6px;
+}
+
+.images p {
+    color:#919191;
+    font-size:14pt;
+    font-weight:300;
+}
+
+.li1 {
+    padding-bottom: 19pt;
+    font-weight: 300;
+    font-size: 15pt;
+}
+
+.vc_custom_1488210576904 {
+ padding:0px !important;   
+}
+
+.shadow {
+   background:white;
+color:gray;
+    padding:25px;
+-webkit-box-shadow: 0px 1px 14px 0px rgba(50, 50, 50, 0.4) !important;
+-moz-box-shadow:    0px 1px 14px 0px rgba(50, 50, 50, 0.4) !important;
+box-shadow:         0px 1px 14px 0px rgba(50, 50, 50, 0.4) !important;
+}
+
+.shadow .s1 {
+     font-size:12pt;
+    line-height:14pt;
+    font-weight:300;
+}
+
+.shadow1 .s1 {
+     font-size:12pt;
+    line-height:14pt;
+    font-weight:300;
+}
+
+.formstyle {
+    color: #000 !important;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 14px 9px 16px;
+    font-size: 16pt;
+    cursor: pointer;
+    background: transparent linear-gradient(to bottom, #FFF300 0%, #FFCE00 100%) repeat scroll 0% 0% !important;
+    border-radius: 3px !important;
+    margin: 0 auto;
+    position: relative; 
+}
+
+.formbutton {
+ width:170px;
+ position:relative;
+ margin:0 auto;
+}
+
+
+
+
+.vc_custom_1488122769158{margin-bottom: 50px !important;}
+.vc_custom_1488187632092{padding-bottom: 35px !important;}
+.vc_custom_1488188109846{padding-top: 50px !important;padding-bottom: 50px !important;background-color: #140000 !important;}
+.vc_custom_1488194445487{margin-bottom: 35px !important;}
+.vc_custom_1488813251912{padding-top: 35px !important;}
+.vc_custom_1488811705883{padding-top: 20px !important;padding-bottom: 20px !important;}
+// .vc_custom_1493391053672{background-image: url(http://grazdanstvoes.comwp-content/uploads/2016/12/bg2.jpg?id=) !important;}
+// .vc_custom_1488883228543{background-image: url(http://grazdanstvoes.comwp-content/uploads/2016/12/bg2.jpg?id=) !important;}
+// .vc_custom_1488809992123{background-image: url(http://grazdanstvoes.comwp-content/uploads/2016/12/bgf.jpg?id=) !important;}
+.vc_custom_1489568825325{padding-bottom: 35px !important;}
+.vc_custom_1488122459731{padding-top: 30px !important;}
+.vc_custom_1488124193175{padding-bottom: 35px !important;}
+.vc_custom_1488187470187{padding-bottom: 15px !important;}
+.vc_custom_1488188319642{padding-top: 45px !important;}
+.vc_custom_1488190984767{padding-bottom: 35px !important;}
+.vc_custom_1493391281248{padding-right: 25px !important;}
+.vc_custom_1488190992677{padding-bottom: 35px !important;}
+.vc_custom_1488210576904{margin-bottom: 1px !important;border-bottom-width: 1px !important;}
+.vc_custom_1488210565711{margin-bottom: 1px !important;border-bottom-width: 1px !important;}
+.vc_custom_1481402148472{padding-top: 110px !important;}
