@@ -1,0 +1,138 @@
+@media (max-width : 480px) {
+	.fc_modal-dialog-1 .fc-pagination-cover .fc-pagination
+	{
+	background-color: transparent !important;
+	}
+}
+.formcraft-css .fc-form.fc-form-1 .form-element .submit-cover .submit-button,
+.formcraft-css .fc-form.fc-form-1 .form-element .fileupload-cover .button-file,
+.formcraft-css .fc-form.fc-form-1 .form-element .field-cover .button,
+#ui-datepicker-div.fc-datepicker .ui-datepicker-header,
+.formcraft-css .fc-form.fc-form-1 .stripe-amount-show
+{
+	background: #4488ee;
+	color: #fff;
+}
+.formcraft-css .fc-form.fc-form-1 .form-element .slider-cover .ui-slider-range
+{
+	background: #4488ee;
+}
+#ui-datepicker-div.fc-datepicker .ui-datepicker-header,
+.formcraft-css .fc-form .field-cover>div.full hr
+{
+	border-color: #3b77d1;
+}
+#ui-datepicker-div.fc-datepicker .ui-datepicker-prev:hover,
+#ui-datepicker-div.fc-datepicker .ui-datepicker-next:hover,
+#ui-datepicker-div.fc-datepicker select.ui-datepicker-month:hover,
+#ui-datepicker-div.fc-datepicker select.ui-datepicker-year:hover
+{
+	background-color: #3b77d1;
+}
+.formcraft-css .fc-pagination>div.active .page-number,
+.formcraft-css .form-cover-builder .fc-pagination>div:first-child .page-number
+{
+	background-color: #4488ee;
+	border-color: #3b77d1;
+	color: #fff;
+}
+#ui-datepicker-div.fc-datepicker table.ui-datepicker-calendar th,
+#ui-datepicker-div.fc-datepicker table.ui-datepicker-calendar td.ui-datepicker-today a,
+.formcraft-css .fc-form.fc-form-1 .form-element .star-cover label,
+html .formcraft-css .fc-form.label-floating .form-element .field-cover.has-focus>span,
+.formcraft-css .fc-form.fc-form-1 .form-element .customText-cover a,
+.formcraft-css .fc-form .form-element .slider-cover .range-max,
+.formcraft-css .fc-form .form-element .slider-cover .range-min,
+.formcraft-css .prev-next>div span:hover
+{
+	color: #4488ee;
+}
+.formcraft-css .fc-form.fc-form-1 .form-element .customText-cover a:hover
+{
+	color: #3b77d1;
+}
+html .formcraft-css .fc-form.fc-form-1.label-floating .form-element .field-cover > span
+{
+	color: #666666;
+}
+.formcraft-css .fc-form.fc-form-1.label-floating .form-element .field-cover input[type="text"],
+.formcraft-css .fc-form.fc-form-1.label-floating .form-element .field-cover input[type="email"],
+.formcraft-css .fc-form.fc-form-1.label-floating .form-element .field-cover input[type="password"],
+.formcraft-css .fc-form.fc-form-1.label-floating .form-element .field-cover input[type="tel"],
+.formcraft-css .fc-form.fc-form-1.label-floating .form-element .field-cover textarea,
+.formcraft-css .fc-form.fc-form-1.label-floating .form-element .field-cover select,
+.formcraft-css .fc-form.fc-form-1.label-floating .form-element .field-cover .time-fields-cover
+{
+	border-bottom-color: #666666;
+	color: #777;
+}
+.formcraft-css .fc-form.fc-form-1 .form-element .field-cover input[type="text"],
+.formcraft-css .fc-form.fc-form-1 .form-element .field-cover input[type="password"],
+.formcraft-css .fc-form.fc-form-1 .form-element .field-cover input[type="email"],
+.formcraft-css .fc-form.fc-form-1 .form-element .field-cover input[type="tel"],
+.formcraft-css .fc-form.fc-form-1 .form-element .field-cover select,
+.formcraft-css .fc-form.fc-form-1 .form-element .field-cover textarea
+{
+	background-color: #fafafa;
+}
+.formcraft-css .fc-form.fc-form-1 .form-element .star-cover label .star			
+{
+	text-shadow: 0px 1px 0px #3b77d1;
+}
+.formcraft-css .fc-form.fc-form-1 .form-element .slider-cover .ui-slider-range
+{
+	box-shadow: 0px 1px 1px #3b77d1 inset;
+}
+.formcraft-css .fc-form.fc-form-1 .form-element .fileupload-cover .button-file,
+.formcraft-css .fc-form.fc-form-1 .form-element .stripe-amount-show
+{
+	border-color: #3b77d1;
+}
+.formcraft-css .fc-form.fc-form-1 .stripe-cover.field-cover div.stripe-amount-show::before
+{
+	border-top-color: #3b77d1;
+}
+.formcraft-css .fc-form.fc-form-1 .stripe-cover.field-cover div.stripe-amount-show::after
+{
+	border-right-color: #4488ee;
+}
+.formcraft-css .fc-form.fc-form-1 .form-element .stripe-amount-show,
+.formcraft-css .fc-form.fc-form-1 .form-element .submit-cover .submit-button .text,
+.formcraft-css .fc-form.fc-form-1 .form-element .field-cover .button
+{
+	text-shadow: 1px 0px 3px #3b77d1;
+}
+.formcraft-css .fc-form.fc-form-1 input[type="checkbox"]:checked,
+.formcraft-css .fc-form.fc-form-1 input[type="radio"]:checked
+{
+	border-color: #4488ee;
+	background-color: #4488ee;						
+}
+.formcraft-css .fc-form.fc-form-1 input[type="checkbox"]:hover,
+.formcraft-css .fc-form.fc-form-1 input[type="radio"]:hover,
+.formcraft-css .fc-form.fc-form-1 input[type="checkbox"]:focus,
+.formcraft-css .fc-form.fc-form-1 input[type="radio"]:focus,
+.formcraft-css .fc-form.fc-form-1 label:hover>input[type="checkbox"],
+.formcraft-css .fc-form.fc-form-1 label:hover>input[type="radio"]
+{
+	border-color: #4488ee;
+}
+.formcraft-css .fc-form.fc-form-1 .form-element .form-element-html input[type="password"]:focus,
+.formcraft-css .fc-form.fc-form-1 .form-element .form-element-html input[type="email"]:focus,
+.formcraft-css .fc-form.fc-form-1 .form-element .form-element-html input[type="tel"]:focus,
+.formcraft-css .fc-form.fc-form-1 .form-element .form-element-html input[type="text"]:focus,
+.formcraft-css .fc-form.fc-form-1 .form-element .form-element-html textarea:focus,
+.formcraft-css .fc-form.fc-form-1 .form-element .form-element-html select:focus
+{
+	border-color: #4488ee;
+}
+.formcraft-css .fc-form.fc-form-1{
+	font-family: inherit;
+}
+@media (max-width : 480px) {
+	html .dedicated-page,
+	html .dedicated-page .formcraft-css .fc-pagination > div.active
+	{
+		background: transparent;
+	}
+}

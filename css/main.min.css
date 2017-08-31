@@ -8125,6 +8125,11 @@ a.text-secondary:hover {
     color: #fff !important;
 }
 
+
+.wpb_accordion_section .wpb_wrapper p{
+	color: #333 !important
+}
+
 .fancy-parallax-bg,.page-title-parallax-bg,.stripe-parallax-bg {
     background-attachment: fixed!important;
     background-position-x: 50%
@@ -16420,4 +16425,16 @@ form.mc4wp-form label {
 #steps h4{
 	color: #333399;
 	font-weight: bold;
+}
+
+.branding .fa{
+	font-size: 24px;
+	line-height: 28px;
+}
+
+
+#contacts h2,
+#contacts h3
+{
+	text-align: center;
 }
