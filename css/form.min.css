@@ -4966,7 +4966,7 @@ html .formcraft-css .icon-meh:before {
 .fc_modal {
     display: none;
     overflow: auto;
-    overflow-y: scroll;
+    // overflow-y: scroll;
     position: fixed!important;
     padding-top: 50px;
     z-index: 9999998;
@@ -4974,7 +4974,9 @@ html .formcraft-css .icon-meh:before {
     -moz-transition: transform .3s cubic-bezier(.1,0,.7,1),opacity .2s linear;
     -webkit-transition: -webkit-transform .3s cubic-bezier(.1,0,.7,1),opacity .2s linear;
     -ms-transition: transform .3s cubic-bezier(.1,0,.7,1),opacity .2s linear;
-    -o-transition: transform .3s cubic-bezier(.1,0,.7,1),opacity .2s linear
+    -o-transition: transform .3s cubic-bezier(.1,0,.7,1),opacity .2s linear;
+    width: 250px;
+    margin: 0 auto;
 }
 
 .fc_modal.fc_fade {
