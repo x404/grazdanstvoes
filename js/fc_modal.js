@@ -9,27 +9,67 @@
 		$('#order_form').submit();
 	});
 
-	var thank = '<div class="thank text-center"> <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button> <h4>Спасибо за Ваш заказ!</h4> <p>Для уточнения деталей наш специалист свяжется с Вами в ближайшее время</p> <br> <p><strong><a href="http://www.emkosti.com.ua" target="_blank">Посетить сайт производителя</a></strong></p> </div>';
+	var thank = '<div class="thank text-center"> <button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button> <h4>Сообщение отправлено!</h4> </div>';
 	var errorTxt = 'Возникла ошибка при отправке заявки!';
-	jQuery('#order_form').validate({
+	jQuery('#modal-1-form').validate({
 		submitHandler: function(form){
 			strSubmit=jQuery(form).serialize();
 			jQuery.ajax({type: "POST",url: "/order.ajax.php",data: strSubmit,
 				success: function(){
-					jQuery('#orderModal').modal('hide').find('.form-control').val('');
-					jQuery('body').append('<div class="modal-backdrop fade in"></div>');
-					jQuery('body').addClass('modal-open');
-					jQuery('body').append(thank);
+					jQuery('#modal-1-form').closest('.fc-form-modal').removeClass('fc_in');
+					jQuery('#modal-1-form').find('input[type="text"]').val("");
+					setTimeout(function() { 
+						jQuery('body').append(thank);
+						startClock('modal-1')
+					}, 200);
 				}
 			}).fail(function(error){alert(errorTxt)});
 		}
-	});  
+	});
+
+
+	jQuery('#modal-2-form').validate({
+		submitHandler: function(form){
+			strSubmit=jQuery(form).serialize();
+			jQuery.ajax({type: "POST",url: "/order.ajax.php",data: strSubmit,
+				success: function(){
+					jQuery('#modal-2-form').closest('.fc-form-modal').removeClass('fc_in');
+					jQuery('#modal-2-form').find('input[type="text"]').val("");
+					setTimeout(function() { 
+						jQuery('.fc-form-1').append(thank);
+						startClock('modal-2')
+					}, 200);
+				}
+			}).fail(function(error){alert(errorTxt)});
+		}
+	});	
+
+
+	jQuery('#modal-3-form').validate({
+		submitHandler: function(form){
+			strSubmit=jQuery(form).serialize();
+			jQuery.ajax({type: "POST",url: "/order.ajax.php",data: strSubmit,
+				success: function(){
+					jQuery('#modal-3-form').closest('.fc-form-modal').removeClass('fc_in');
+					jQuery('#modal-3-form').find('input[type="text"], input[type="email"], textarea').val("");
+					setTimeout(function() { 
+						jQuery('.fc-form-2').append(thank);
+						startClock('modal-3')
+					}, 200);
+				}
+			}).fail(function(error){alert(errorTxt)});
+		}
+	});
+
 
 
 	jQuery('[data-toggle="fc_modal"]').click(function(){
 		jQuery('body').addClass('fc_modal-open').append('<div class="fc_modal-backdrop fc_fade fc_in"></div>');
-		let id = jQuery(this).data('target');
+		let $this = jQuery(this),
+			id = $this.data('target');
+			title = $this.data('title');
 
+		jQuery('#' + id).find('input[name="theme"]').val(title);
 		jQuery('#' + id).fadeIn('normal', function(){
 			jQuery('#' + id).addClass('fc_in').show();
 		});
@@ -44,6 +84,9 @@
 			jQuery('.fc_modal-backdrop').remove();
 			jQuery('body').removeClass('fc_modal-open');
 			jQuery('#' + identifier).hide();
+			jQuery('.thank').fadeOut('normal', function(){
+				jQuery('.thank').remove();
+			})
 		}, 200);
 
 	})
@@ -68,6 +111,35 @@
 	// });
 
 });
+
+
+var timer;
+var sec = 3;
+
+function showTime(form){
+	sec = sec-1;
+	if (sec <=0) {
+		stopClock();
+		jQuery('.thank').fadeOut('normal',function(){
+			// this.remove();
+			jQuery('.fc_close, .close, .fc_close2').click()
+		});
+	}
+}
+
+function stopClock(){
+	window.clearInterval(timer);
+	timer = null;
+	sec = 3;
+}
+
+function startClock(form){
+	if (!timer)
+	timer = window.setInterval("showTime('"+form+"')",1000);
+}
+
+
+
 
 /*
 

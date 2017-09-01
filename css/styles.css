@@ -1,13 +1,14 @@
 html .formcraft-css .fc-form .form-element .form-element-html {
-    padding: 0 1.5em 0.5em 0 !important;
+    padding: 0 1.5em 0.5em 0;
 }
 
-html .formcraft-css .fc-form .form-page-content .form-element-type-customText:first-child .customText-cover, html .formcraft-css .fc-form .form-page-content .form-element-type-heading:first-child .heading-cover {
+html .formcraft-css .fc-form .form-page-content .form-element-type-customText:first-child .customText-cover, 
+html .formcraft-css .fc-form .form-page-content .form-element-type-heading:first-child .heading-cover {
     padding-bottom: 9px !important;
 }
 
 html .formcraft-css .fc-form .form-page-content {
-    padding: 1.5em 0 1.0em 1.5em !important;
+    padding: 1.5em 1.5em 1.0em 1.5em;
 }
 
 #dt-btn-1, #dt-btn-2 {
@@ -18,7 +19,7 @@ html .formcraft-css .fc-form .form-page-content {
 
 html .formcraft-css {
     position: relative;
-    width: auto;
+    // width: auto;
     font-size: 14px;
     float: left;
 }
